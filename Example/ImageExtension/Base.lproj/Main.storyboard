@@ -20,11 +20,30 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="2x0-QS-Rvj">
+                                <rect key="frame" x="137.5" y="30" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0RC-Vf-2wx"/>
+                                    <constraint firstAttribute="height" constant="100" id="M1i-OF-OuO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2x0-QS-Rvj" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="G55-t9-IIZ"/>
+                            <constraint firstItem="2x0-QS-Rvj" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="e4i-gt-nVu"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imag" destination="2x0-QS-Rvj" id="oYM-Br-HPx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="profile" width="50" height="50"/>
+    </resources>
 </document>
