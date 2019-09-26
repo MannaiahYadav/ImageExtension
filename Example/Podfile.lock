@@ -1,0 +1,16 @@
+PODS:
+  - ImageExtension (0.1.0)
+
+DEPENDENCIES:
+  - ImageExtension (from `../`)
+
+EXTERNAL SOURCES:
+  ImageExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImageExtension: c0f29e7c06d8bb5112fc726e830b139e08304d21
+
+PODFILE CHECKSUM: ed7e59a02bfcb7db8caab97f1170613e8d0ae2dc
+
+COCOAPODS: 1.8.0

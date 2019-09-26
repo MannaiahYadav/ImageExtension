@@ -1,0 +1,22 @@
+{
+  "name": "ImageExtension",
+  "version": "0.1.0",
+  "summary": "A short description of ImageExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mannaiah/ImageExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mannaiah": "mannaiah.01@karvy.com"
+  },
+  "source": {
+    "git": "https://github.com/mannaiah/ImageExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImageExtension/Classes/**/*"
+}
