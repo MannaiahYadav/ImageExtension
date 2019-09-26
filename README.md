@@ -22,7 +22,7 @@ pod 'ImageExtension'
 
 ## Author
 
-mannaiah, mannaiah.01@karvy.com
+mannaiah, mannaiah.jl@gmail.com
 
 ## License
 
