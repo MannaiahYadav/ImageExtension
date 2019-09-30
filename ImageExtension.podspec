@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mannaiah' => 'mannaiah.jl@gmail.com'}
   # s.version.to_s
-   s.source = { :git => 'https://github.com/mannaiahYadav/CustomImageExtension.git', :tag => 'v' + s.version.to_s}
+   s.source = { :git => 'https://github.com/mannaiahYadav/CustomImageExtension.git', :tag => 'v#{s.version}'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
