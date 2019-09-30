@@ -8,14 +8,19 @@
 
 import UIKit
 import ImageExtension
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var imag: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         imag.circleImageView(borderColor: UIColor.red, borderWidth:2)
+       let login = LoginVC()
+      //  login.saveRecordinDB()
+    
+        
+       
     }
 
     override func didReceiveMemoryWarning() {

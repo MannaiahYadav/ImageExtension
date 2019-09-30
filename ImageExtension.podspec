@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageExtension'
   s.version          = '0.3.0'
-  s.summary          = 'CustomImageExtension is a set the border corner radius with border color'
+  s.summary          = 'ImageExtension is a set the border corner radius with border color'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
